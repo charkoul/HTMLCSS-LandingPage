@@ -112,18 +112,22 @@ height: 30px;
   border: 0;
 }
 
-.nav-list li, .nav-list a{
-font-weight: 700;
-font-size: 16px;
-text-transform: uppercase;
-letter-spacing: 0.2px;
-}
 
 .nav-list{
 padding-left: 0;
 width: 575px;
 margin-top: 10px;
 }
+
+
+.nav-list li a{
+font-size: 16px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.2px;
+}
+
+
 
 .profile{
   margin-left: auto;
