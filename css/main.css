@@ -8,6 +8,7 @@ nav { padding: 10px 0; }
 h1, h2, h3, h4, h5, h6 { margin: 0; }
 /***************************************/
 
+/** Utility Classes **/
 .container{
   margin: 0px auto 0px auto;
   max-width: 1170px;
@@ -78,6 +79,8 @@ color: #faa541;
   font-size: 16px;
   color: #364147;
 }
+
+/** Header & Navigation **/
 
 .header-nav{
   border-bottom: 1px #a0a0a0;
@@ -153,10 +156,12 @@ letter-spacing: 0.2px;
     max-width: 100%;
   }
 
+
+/** Hero, Sales Banner, & Categories **/
   .hero {
     background-image: url("../img/hero.jpg");
-    background-size: cover;
     height: 400px;
+    background-size: cover;
     background-position: center;
     text-transform: uppercase;
     }
