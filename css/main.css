@@ -99,7 +99,8 @@ margin-right: 60px;
   width: 330px;
   height: 30px;
   padding: 6px 12px;
-  border: 1px #a0a0a0;
+  border: 1px 1px;
+  border-color: #a0a0a0;
 }
 
 .search-button{
@@ -111,11 +112,17 @@ height: 30px;
   border: 0;
 }
 
+.nav-list li, .nav-list a{
+font-weight: 700;
+font-size: 16px;
+text-transform: uppercase;
+letter-spacing: 0.2px;
+}
+
 .nav-list{
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 0.2px;
+padding-left: 0;
+width: 575px;
+margin-top: 10px;
 }
 
 .profile{
@@ -123,7 +130,7 @@ height: 30px;
 }
 
 .account{
-  padding: 15px;
+  padding: 15px 15px;
   font: 18px #364147;
 }
 .account > a{
